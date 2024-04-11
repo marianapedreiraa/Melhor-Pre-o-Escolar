@@ -1,4 +1,4 @@
-var cacheName = 'pwaTeste+-v1.0';
+var cacheName = 'melhorpreco';
 
 self.addEventListener('install', event => {
 
