@@ -9,7 +9,8 @@ self.addEventListener('install', event => {
       .then(cache => cache.addAll([
 
         './index.html',
-
+        './css/index.css',
+        './assets/css/main.css',
         './images/images/appstore.png',
         './images/images/banner.png',
         './images/images/pic01.png',
@@ -20,12 +21,8 @@ self.addEventListener('install', event => {
         './images/images/spotlight01.png',
         './images/images/spotlight02(1).png',
         './images/images/spotlight03.png',
-        './images/images/ios/16.png',
-        './images/images/20.png',
-
-        './assets/img/58/29.png',
-        './assets/img/58/32.png',
-        './assets/img/58/40.png',
+        './images/AppImages/16.png',
+        './images/AppImages/20.png',
         './images/AppImages/58.png',
         './images/AppImages/57.png',
         './images/AppImages/60.png',
@@ -46,18 +43,7 @@ self.addEventListener('install', event => {
         './images/AppImages/256.png',
         './images/AppImages/512.png',
         './images/AppImages/1024.png',
-        './assets/img/01.png',
-        './assets/img/02.png',
-        './assets/img/03.png',
-        './assets/img/04.png',
-        './assets/img/05.png',
-        './assets/img/06.png',
-        './assets/img/07.png',
-        './assets/img/08.png',
-        './assets/img/09.png',
-        './assets/img/10.png',
-        './assets/img/11.png',
-        './assets/img/12.png',
+        
       ]))
   );
 });
